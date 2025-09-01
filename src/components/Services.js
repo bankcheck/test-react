@@ -1,0 +1,17 @@
+import Title from "./Title";
+import { services } from "../data";
+import Service from "./Service";
+
+const Services = () => {
+  return (
+    <section className="section services" id="services">
+      <Title title1="our" title2="services" />
+      <div className="section-center services-center">
+        {services.map((item) => {
+          return <Service className="service" key={item.id} {...item} />;
+        })}
+      </div>
+    </section>
+  );
+};
+export default Services;
