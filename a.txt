@@ -1,3 +1,7 @@
 abc
+<<<<<<< HEAD
 newline
 pull
+=======
+newline2
+>>>>>>> 68b26e419a10fc7be86bd53733bbb32d5b9929ee
